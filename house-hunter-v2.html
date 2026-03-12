@@ -784,13 +784,13 @@ body {
       </button>
     </div>
   </div>
-  <div class="stats-bar" id="statsBar"></div>
+  <div class="stats-bar" id="statsBar"><div class="stat-item"><span class="stat-value">990 ft²</span><span class="stat-label">Living Area</span></div><div class="stat-item"><span class="stat-value">498 ft²</span><span class="stat-label">Main Floor</span></div><div class="stat-item"><span class="stat-value">503 ft²</span><span class="stat-label">Second Floor</span></div><div class="stat-item"><span class="stat-value">$477</span><span class="stat-label">Tax / mo</span></div><div class="stat-item"><span class="stat-value">3,746 ft²</span><span class="stat-label">Lot Size</span></div><div class="stat-item"><span class="stat-value"><span style="color:var(--green)">+1.7%</span></span><span class="stat-label">Avg Sold Δ</span></div></div>
 </header>
 
 <!-- ═══ TOOLBAR ═══ -->
 <div class="toolbar">
   <div class="toolbar-left">
-    <span class="house-count" id="houseCount"><span>1</span> of 70 listings</span>
+    <span class="house-count" id="houseCount"><span>77</span> listings</span>
   </div>
   <div class="toolbar-right">
     <select class="sort-select" id="sortSelect" onchange="renderAll()">
@@ -861,11 +861,2489 @@ body {
     <option value="Second Floor+">Second Floor +</option>
     <option value="Second Floor-">Second Floor −</option>
   </select>
-  <button class="filter-clear" id="filterClear" onclick="clearFilters()" style="display: inline-block;">Clear filters</button>
+  <button class="filter-clear" id="filterClear" onclick="clearFilters()" style="display: none;">Clear filters</button>
 </div>
 
 <!-- ═══ MAIN CONTENT ═══ -->
 <main class="main-content" id="mainContent"><div class="card-grid">
+    <div class="house-card " onclick="openDetail('mmbh55lr0p765')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbh55lr0p765', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbh55lr0p765', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>11 Eberlee Court</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2026-01-06</div>
+        </div>
+        <div class="card-score score-high">+8</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      <div class="card-price-sold">Sold $880,000 (+10.14%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 646<br>Second 455</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">21×129</div>
+          <div class="metric-label">2,709 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$456</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbibri68uz2l')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbibri68uz2l', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbibri68uz2l', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>17 Barrow Court</h3>
+          <div class="card-area">Lynde Creek · Whitby</div>
+          <div class="card-date">Listed 2026-01-27</div>
+        </div>
+        <div class="card-score score-high">+7</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      <div class="card-price-sold">Sold $810,000 (+1.26%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 538<br>Second 562</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">26×122</div>
+          <div class="metric-label">3,172 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$479</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmcwmdaybm362')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmcwmdaybm362', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmcwmdaybm362', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>28 Nordic Court</h3>
+          <div class="card-area">Lynde Creek · Whitby</div>
+          <div class="card-date">Listed 2026-02-17</div>
+        </div>
+        <div class="card-score score-high">+7</div>
+      </div>
+      <div class="card-price">$599,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 588<br>Second 413</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">27×137</div>
+          <div class="metric-label">3,699 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$482</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmj7ab3j4o3p7')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmj7ab3j4o3p7', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmj7ab3j4o3p7', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>66 Jamieson Crescent</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2026-03-05</div>
+        </div>
+        <div class="card-score score-high">+7</div>
+      </div>
+      <div class="card-price">$699,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 712<br>Second 649</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">45×125</div>
+          <div class="metric-label">5,625 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$570</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Full, Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmay1fwnhn0q0')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmay1fwnhn0q0', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmay1fwnhn0q0', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>253 Michael Boulevard</h3>
+          <div class="card-area">Lynde Creek · Whitby</div>
+          <div class="card-date">Listed 2026-02-19</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$899,900</div>
+      <div class="card-price-sold">Sold $875,000 (-2.77%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 955<br>Second 524</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">59×121</div>
+          <div class="metric-label">7,139 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$538</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">6 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished, Apartment</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmb1811iieowv')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmb1811iieowv', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmb1811iieowv', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>54 Allworth Crescent</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-02-13</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$749,999</div>
+      <div class="card-price-sold">Sold $831,500 (+10.87%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 532<br>Second 386</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">40×113</div>
+          <div class="metric-label">4,520 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$422</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfj2hdh8txt')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfj2hdh8txt', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfj2hdh8txt', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>13 Prestonway Drive</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-01-16</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$789,900</div>
+      <div class="card-price-sold">Sold $791,000 (+0.14%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 660<br>Second 466</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×109</div>
+          <div class="metric-label">3,161 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$392</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfob0imjz5p')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfob0imjz5p', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfob0imjz5p', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>44 Evergreen Drive</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2026-01-22</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$750,000</div>
+      <div class="card-price-sold">Sold $801,500 (+6.87%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 634<br>Upper 473<br>Lower 264</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">48×129</div>
+          <div class="metric-label">6,192 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$516</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbiaglu3cv46')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbiaglu3cv46', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbiaglu3cv46', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>5 Woodlawn Court</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2025-12-13</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$850,000</div>
+      <div class="card-price-sold">Sold $831,000 (-2.24%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 710<br>Upper 452</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">50×120</div>
+          <div class="metric-label">6,000 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$492</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3o7sj05agj')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3o7sj05agj', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3o7sj05agj', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>114 Argent Street</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-11-20</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$799,888</div>
+      <div class="card-price-sold">Sold $815,000 (+1.89%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 606<br>Second 477</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×114</div>
+          <div class="metric-label">3,306 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$414</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmj7884dd519m')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmj7884dd519m', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmj7884dd519m', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>181 Madden Place</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-03-05</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$699,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 408<br>Second 640</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×108</div>
+          <div class="metric-label">3,132 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$428</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmj7be2pmxxr0')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmj7be2pmxxr0', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmj7be2pmxxr0', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>46 Sandford Crescent</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2026-03-05</div>
+        </div>
+        <div class="card-score score-high">+6</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 663<br>Second 501</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">34×114</div>
+          <div class="metric-label">3,876 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$546</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmay0zsu30hnx')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmay0zsu30hnx', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmay0zsu30hnx', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>95 Harrongate Place</h3>
+          <div class="card-area">Taunton North · Whitby</div>
+          <div class="card-date">Listed 2026-02-19</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      <div class="card-price-sold">Sold $865,000 (+8.26%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 550<br>Second 561</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">24×103</div>
+          <div class="metric-label">2,472 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$543</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmb5e9gdghqtr')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmb5e9gdghqtr', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmb5e9gdghqtr', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>207 Ronald Hooper Avenue</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-01-25</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      <div class="card-price-sold">Sold $915,000 (+14.52%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 673<br>Second 739</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">39×106</div>
+          <div class="metric-label">4,134 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$597</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmb5fao5dctkn')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmb5fao5dctkn', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmb5fao5dctkn', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>116 Bach Avenue</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2026-02-05</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      <div class="card-price-sold">Sold $875,000 (+9.39%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 578<br>Second 370</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×109</div>
+          <div class="metric-label">3,161 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$452</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfsmj9x1jnk')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfsmj9x1jnk', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfsmj9x1jnk', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>902 Centre Street</h3>
+          <div class="card-area">Williamsburg · Whitby</div>
+          <div class="card-date">Listed 2026-02-12</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$729,000</div>
+      <div class="card-price-sold conditional">Sold Conditional</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 604</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">55×100</div>
+          <div class="metric-label">5,500 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$392</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">2 bath</span>
+        
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbg1r96tdnjt')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbg1r96tdnjt', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbg1r96tdnjt', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>15 Langmaid Court</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2026-01-12</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$1,024,900</div>
+      <div class="card-price-sold">Sold $995,000 (-2.92%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 478<br>Second 912</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">47×110</div>
+          <div class="metric-label">5,170 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$536</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Apartment, Finished with Walk-Out</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbgm335bk80d')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbgm335bk80d', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbgm335bk80d', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>579 Braemor Court</h3>
+          <div class="card-area">McLaughlin · Oshawa</div>
+          <div class="card-date">Listed 2026-02-25</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$704,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 539<br>Second 563</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">35×101</div>
+          <div class="metric-label">3,535 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$449</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbht01excxc2')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbht01excxc2', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbht01excxc2', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>91 Lafayette Boulevard</h3>
+          <div class="card-area">Williamsburg · Whitby</div>
+          <div class="card-date">Listed 2026-02-25</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$749,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 616<br>Second 563</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">31×108</div>
+          <div class="metric-label">3,348 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$485</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbi9cdpq44ks')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbi9cdpq44ks', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbi9cdpq44ks', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>203 Glen Hill Drive</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2025-12-18</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$815,000</div>
+      <div class="card-price-sold">Sold $813,000 (-0.25%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 477<br>Second 484</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×153</div>
+          <div class="metric-label">4,437 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$498</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card visited" onclick="openDetail('mmc0v51ys6d41')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc0v51ys6d41', event)" title="Mark unvisited">
+          <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc0v51ys6d41', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>187 High Street</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-12-04</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$739,900</div>
+      <div class="card-price-sold">Sold $735,000 (-0.66%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 380<br>Second 607</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×102</div>
+          <div class="metric-label">2,958 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$422</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc198ep3zdee')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc198ep3zdee', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc198ep3zdee', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>282 Bons Avenue</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-11-04</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      <div class="card-price-sold">Sold $790,000 (-1.24%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 305<br>Second 559</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">39×119</div>
+          <div class="metric-label">4,641 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$440</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc1a69uu9bzr')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc1a69uu9bzr', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc1a69uu9bzr', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>632 Longworth Avenue</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-11-12</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 635<br>Second 649</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">40×114</div>
+          <div class="metric-label">4,560 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$506</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished, Full</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3dtk7cw9fo')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3dtk7cw9fo', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3dtk7cw9fo', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>149 Carnwith Drive E</h3>
+          <div class="card-area">Brooklin · Whitby</div>
+          <div class="card-date">Listed 2025-10-21</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$825,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 595<br>Second 443</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">27×100</div>
+          <div class="metric-label">2,700 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$490</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Full</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc41ghsqg5sf')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc41ghsqg5sf', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc41ghsqg5sf', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>40 Puttingedge Drive</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2025-11-03</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 591<br>Second 509</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×110</div>
+          <div class="metric-label">3,190 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$436</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc4livm5r2zl')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc4livm5r2zl', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc4livm5r2zl', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>100 Fieldcrest Avenue</h3>
+          <div class="card-area">Courtice · Clarington</div>
+          <div class="card-date">Listed 2026-02-06</div>
+        </div>
+        <div class="card-score score-high">+5</div>
+      </div>
+      <div class="card-price">$899,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 620<br>Second 471</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×114</div>
+          <div class="metric-label">3,306 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$465</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmb5b8i9gmete')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmb5b8i9gmete', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmb5b8i9gmete', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>849 Byron Street N</h3>
+          <div class="card-area">Williamsburg · Whitby</div>
+          <div class="card-date">Listed 2026-02-12</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$829,000</div>
+      <div class="card-price-sold">Sold $901,500 (+8.75%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 501<br>Upper 494</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">50×140</div>
+          <div class="metric-label">7,000 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$460</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished with Walk-Out</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmb5zujqjt4dc')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmb5zujqjt4dc', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmb5zujqjt4dc', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>23 Drew Court</h3>
+          <div class="card-area">Pringle Creek · Whitby</div>
+          <div class="card-date">Listed 2026-01-29</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$799,999</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 481<br>Second 502</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">62×103</div>
+          <div class="metric-label">6,386 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$456</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Full, Partially Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfb14ffjtmu')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfb14ffjtmu', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfb14ffjtmu', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>5 Caleche Avenue</h3>
+          <div class="card-area">Courtice · Clarington</div>
+          <div class="card-date">Listed 2026-01-28</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$819,000</div>
+      <div class="card-price-sold">Sold $780,000 (-4.76%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 349<br>Second 940</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">33×104</div>
+          <div class="metric-label">3,432 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$425</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfc46o5y8y0')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfc46o5y8y0', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfc46o5y8y0', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>25 Soper Creek Drive</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-02-20</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$699,000</div>
+      <div class="card-price-sold">Sold $715,000 (+2.29%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 495<br>Second 425</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">39×100</div>
+          <div class="metric-label">3,900 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$359</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Full, Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfhpf40dq7o')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfhpf40dq7o', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfhpf40dq7o', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>3 Corral Court</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2026-01-27</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$850,000</div>
+      <div class="card-price-sold">Sold $865,000 (+1.76%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 573<br>Second 405</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">42×100</div>
+          <div class="metric-label">4,200 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$491</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbg3ey3fjghu')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbg3ey3fjghu', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbg3ey3fjghu', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>2 Davidson Street</h3>
+          <div class="card-area">Williamsburg · Whitby</div>
+          <div class="card-date">Listed 2026-01-20</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$860,000</div>
+      <div class="card-price-sold">Sold $854,000 (-0.70%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 562<br>Second 501</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">35×111</div>
+          <div class="metric-label">3,885 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$476</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Semi-Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbho5b5rzmmd')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbho5b5rzmmd', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbho5b5rzmmd', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>45 Davies Crescent</h3>
+          <div class="card-area">Pringle Creek · Whitby</div>
+          <div class="card-date">Listed 2026-02-26</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$699,900</div>
+      <div class="card-price-sold conditional">Sold Conditional</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 469<br>Second 506</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">27×111</div>
+          <div class="metric-label">2,997 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$422</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbhuly809rb3')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbhuly809rb3', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbhuly809rb3', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>8 Carmichael Drive N</h3>
+          <div class="card-area">Pringle Creek · Whitby</div>
+          <div class="card-date">Listed 2026-02-11</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$849,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">N/A</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">44×110</div>
+          <div class="metric-label">4,840 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$596</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbi2c596tns9')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbi2c596tns9', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbi2c596tns9', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>56 Fairmeadow Place</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2026-01-04</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$849,999</div>
+      <div class="card-price-sold">Sold $845,000 (-0.59%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 511<br>Second 461</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">30×153</div>
+          <div class="metric-label">4,590 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$450</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished, Apartment</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbi47ywxozc6')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbi47ywxozc6', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbi47ywxozc6', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>64 Longueuil Place</h3>
+          <div class="card-area">Pringle Creek · Whitby</div>
+          <div class="card-date">Listed 2026-01-03</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 306<br>Second 446</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">25×125</div>
+          <div class="metric-label">3,125 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$456</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbi5gbdrog3y')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbi5gbdrog3y', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbi5gbdrog3y', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>28 Norland Circle</h3>
+          <div class="card-area">Windfields · Oshawa</div>
+          <div class="card-date">Listed 2026-02-06</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      <div class="card-price-sold">Sold $725,000 (-9.26%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 535<br>Second 612</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">30×90</div>
+          <div class="metric-label">2,700 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$457</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbi762xfesim')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbi762xfesim', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbi762xfesim', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>147 Argent Street</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-12-19</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$820,000</div>
+      <div class="card-price-sold">Sold $775,000 (-5.49%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">N/A</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×108</div>
+          <div class="metric-label">3,132 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$412</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbidky7kg9ll')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbidky7kg9ll', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbidky7kg9ll', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>979 Ripley Crescent</h3>
+          <div class="card-area">Pinecrest · Oshawa</div>
+          <div class="card-date">Listed 2025-12-04</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$679,900</div>
+      <div class="card-price-sold">Sold $770,000 (+13.25%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 574<br>Second 552</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">44×119</div>
+          <div class="metric-label">5,236 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$475</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3gh0un6bnm')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3gh0un6bnm', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3gh0un6bnm', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>95 Laprade Square</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-11-21</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      <div class="card-price-sold">Sold $795,000 (-0.50%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 255<br>Second 470</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×101</div>
+          <div class="metric-label">2,929 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$397</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmcvqnosu5kxc')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmcvqnosu5kxc', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmcvqnosu5kxc', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>41 Fieldview Crescent</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2026-01-23</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$853,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 324</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">35×105</div>
+          <div class="metric-label">3,675 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$461</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished with Walk-Out</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmj7c91w032q7')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmj7c91w032q7', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmj7c91w032q7', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>32 Buxton Lane</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-03-05</div>
+        </div>
+        <div class="card-score score-high">+4</div>
+      </div>
+      <div class="card-price">$899,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 546<br>Second 638</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">36×110</div>
+          <div class="metric-label">3,960 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$507</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmaz1rbw7kn6v')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmaz1rbw7kn6v', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmaz1rbw7kn6v', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>27 Majestic Street</h3>
+          <div class="card-area">Port Whitby · Whitby</div>
+          <div class="card-date">Listed 2026-02-18</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$844,800</div>
+      <div class="card-price-sold">Sold $902,527 (+6.83%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 507<br>Second 542</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×110</div>
+          <div class="metric-label">3,190 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$572</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbffzttxti5d')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbffzttxti5d', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbffzttxti5d', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>411 Rosedale Drive</h3>
+          <div class="card-area">Downtown Whitby · Whitby</div>
+          <div class="card-date">Listed 2026-01-27</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">N/A</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">37×106</div>
+          <div class="metric-label">3,922 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$367</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">6 bed</span>
+        <span class="tag">4 bath</span>
+        
+        <span class="tag">Finished, Separate Entrance</span>
+        <span class="tag">Semi-Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbgkepsvl1u5')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbgkepsvl1u5', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbgkepsvl1u5', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>45 Woodbine Place</h3>
+          <div class="card-area">Windfields · Oshawa</div>
+          <div class="card-date">Listed 2025-12-02</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$800,000</div>
+      <div class="card-price-sold">Sold $783,000 (-2.13%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 665<br>Second 646</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">40×95</div>
+          <div class="metric-label">3,800 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$609</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Partially Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc18h029uflo')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc18h029uflo', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc18h029uflo', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>78 Bonnycastle Drive</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-02-19</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$849,900</div>
+      <div class="card-price-sold">Sold $849,000 (-0.11%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 456<br>Second 390</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">39×106</div>
+          <div class="metric-label">4,134 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$411</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished with Walk-Out</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3r9sxe1qxd')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3r9sxe1qxd', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3r9sxe1qxd', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>18 Summerside Avenue</h3>
+          <div class="card-area">Taunton North · Whitby</div>
+          <div class="card-date">Listed 2025-11-18</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      <div class="card-price-sold">Sold $800,000 (+0.01%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 483<br>Second 452</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">25×101</div>
+          <div class="metric-label">2,525 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$460</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3s1ihi8yqk')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3s1ihi8yqk', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3s1ihi8yqk', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>65 Sandford Crescent</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2025-11-19</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$869,000</div>
+      <div class="card-price-sold">Sold $860,000 (-1.04%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 351<br>Second 509</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">34×114</div>
+          <div class="metric-label">3,876 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$502</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3v4mf6oceb')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3v4mf6oceb', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3v4mf6oceb', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>99 Creekwood Crescent</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2026-01-12</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$725,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 267<br>Second 287</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">19×114</div>
+          <div class="metric-label">2,166 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$362</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">2 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc4jikmbb5cd')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc4jikmbb5cd', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc4jikmbb5cd', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>704 Brock Street S</h3>
+          <div class="card-area">Downtown Whitby · Whitby</div>
+          <div class="card-date">Listed 2026-02-26</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$869,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 298<br>Second 600</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">43×91</div>
+          <div class="metric-label">3,913 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$472</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Apartment, Separate Entrance</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmj7d83kfuyik')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmj7d83kfuyik', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmj7d83kfuyik', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>56 Longueuil Place</h3>
+          <div class="card-area">Pringle Creek · Whitby</div>
+          <div class="card-date">Listed 2026-03-05</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$829,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 348<br>Second 572</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">25×125</div>
+          <div class="metric-label">3,125 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$450</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmlaqhxd0zj8b')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmlaqhxd0zj8b', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmlaqhxd0zj8b', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>222 Bruce Cameron Drive</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-03-10</div>
+        </div>
+        <div class="card-score score-mid">+3</div>
+      </div>
+      <div class="card-price">$889,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 558<br>Second 602</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">32×117</div>
+          <div class="metric-label">3,744 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$504</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">5 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmb174asxkllw')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmb174asxkllw', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmb174asxkllw', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>163 Crombie Street</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-02-04</div>
+        </div>
+        <div class="card-score score-mid">+2</div>
+      </div>
+      <div class="card-price">$1,075,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">N/A</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value" style="color:#b8860b">39×98</div>
+          <div class="metric-label">3,822 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$584</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">6 bed</span>
+        <span class="tag">5 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Apartment, Separate Entrance</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmb5gnxoan8ym')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmb5gnxoan8ym', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmb5gnxoan8ym', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>466 Whitby Shores Green Way</h3>
+          <div class="card-area">Port Whitby · Whitby</div>
+          <div class="card-date">Listed 2025-11-03</div>
+        </div>
+        <div class="card-score score-mid">+2</div>
+      </div>
+      <div class="card-price">$829,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 220<br>Second 466</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×100</div>
+          <div class="metric-label">2,900 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$530</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbhw496ukd8w')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbhw496ukd8w', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbhw496ukd8w', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>574 Clearsky Avenue</h3>
+          <div class="card-area">Taunton · Oshawa</div>
+          <div class="card-date">Listed 2026-01-01</div>
+        </div>
+        <div class="card-score score-mid">+2</div>
+      </div>
+      <div class="card-price">$849,999</div>
+      <div class="card-price-sold">Sold $875,000 (+2.94%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 666<br>Second 579</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">48×109</div>
+          <div class="metric-label">5,232 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$550</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbi8bfxi5i9h')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbi8bfxi5i9h', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbi8bfxi5i9h', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>1187 Springbank Drive</h3>
+          <div class="card-area">Pinecrest · Oshawa</div>
+          <div class="card-date">Listed 2025-12-16</div>
+        </div>
+        <div class="card-score score-mid">+2</div>
+      </div>
+      <div class="card-price">$675,000</div>
+      <div class="card-price-sold">Sold $750,000 (+11.11%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">N/A</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">30×117</div>
+          <div class="metric-label">3,510 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$475</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc17osoqgz8a')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc17osoqgz8a', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc17osoqgz8a', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>60 Willey Drive</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-11-07</div>
+        </div>
+        <div class="card-score score-mid">+2</div>
+      </div>
+      <div class="card-price">$759,000</div>
+      <div class="card-price-sold">Sold $720,000 (-5.14%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 437<br>Second 277</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">40×109</div>
+          <div class="metric-label">4,360 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$361</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3tgmqo8onk')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3tgmqo8onk', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3tgmqo8onk', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>2010 Hunking Drive</h3>
+          <div class="card-area">Taunton · Oshawa</div>
+          <div class="card-date">Listed 2025-11-04</div>
+        </div>
+        <div class="card-score score-mid">+2</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      <div class="card-price-sold">Sold $940,889 (+17.63%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 724<br>Second 849</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">36×128</div>
+          <div class="metric-label">4,608 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$675</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmj7e2y7ox1kr')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmj7e2y7ox1kr', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmj7e2y7ox1kr', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>532 Park Road N</h3>
+          <div class="card-area">McLaughlin · Oshawa</div>
+          <div class="card-date">Listed 2026-03-05</div>
+        </div>
+        <div class="card-score score-mid">+2</div>
+      </div>
+      <div class="card-price">$789,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 695<br>Second 347</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">27×89</div>
+          <div class="metric-label">2,403 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$484</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
     <div class="house-card " onclick="openDetail('mmay0alypc95f')">
       <div class="card-actions">
         <button onclick="toggleVisited('mmay0alypc95f', event)" title="Mark visited">
@@ -884,10 +3362,10 @@ body {
         <div class="card-score score-mid">+1</div>
       </div>
       <div class="card-price">$839,000</div>
-      <div class="card-price-sold conditional">Sold Conditional</div>
+      <div class="card-price-sold">Sold $834,000 (-0.60%)</div>
       <div class="card-metrics">
         <div class="card-metric">
-          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 431<br>Second 473</div>
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 296<br>Second 473</div>
           <div class="metric-label">floor ft²</div>
         </div>
         <div class="card-metric">
@@ -905,6 +3383,720 @@ body {
         <span class="tag">1 gar</span>
         <span class="tag">Unfinished</span>
         <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmayl1m2h3ip9')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmayl1m2h3ip9', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmayl1m2h3ip9', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>87 Madden Place</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2026-02-18</div>
+        </div>
+        <div class="card-score score-mid">+1</div>
+      </div>
+      <div class="card-price">$859,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 414<br>Second 439</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×111</div>
+          <div class="metric-label">3,219 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$403</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        
+        <span class="tag">Finished, Full</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfjtkmh71eb')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfjtkmh71eb', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfjtkmh71eb', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>80 Fry Crescent</h3>
+          <div class="card-area">Bowmanville · Clarington</div>
+          <div class="card-date">Listed 2025-12-27</div>
+        </div>
+        <div class="card-score score-mid">+1</div>
+      </div>
+      <div class="card-price">$810,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 258<br>Second 351</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">28×108</div>
+          <div class="metric-label">3,024 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$362</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished, Development Potential</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card visited" onclick="openDetail('mmbfmbb8e255j')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfmbb8e255j', event)" title="Mark unvisited">
+          <svg viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfmbb8e255j', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>92 Hartrick Place</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2026-01-22</div>
+        </div>
+        <div class="card-score score-mid">+1</div>
+      </div>
+      <div class="card-price">$949,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 224<br>Second 370</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×114</div>
+          <div class="metric-label">3,306 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$479</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfpvhupknda')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfpvhupknda', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfpvhupknda', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>88 Littlewood Drive</h3>
+          <div class="card-area">Rural Whitby · Whitby</div>
+          <div class="card-date">Listed 2026-01-21</div>
+        </div>
+        <div class="card-score score-mid">+1</div>
+      </div>
+      <div class="card-price">$949,000</div>
+      <div class="card-price-sold">Sold $920,000 (-3.06%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">N/A</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">26×102</div>
+          <div class="metric-label">2,652 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$536</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Semi-Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3p0lt1xcw2')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3p0lt1xcw2', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3p0lt1xcw2', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>3 Tansley Crescent</h3>
+          <div class="card-area">Northeast Ajax · Ajax</div>
+          <div class="card-date">Listed 2025-11-20</div>
+        </div>
+        <div class="card-score score-mid">+1</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">N/A</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">30×89</div>
+          <div class="metric-label">2,670 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$544</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Apartment, Separate Entrance</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc4b4925af05')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc4b4925af05', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc4b4925af05', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>51 CHISWICK Avenue</h3>
+          <div class="card-area">Brooklin · Whitby</div>
+          <div class="card-date">Listed 2026-03-03</div>
+        </div>
+        <div class="card-score score-mid">+1</div>
+      </div>
+      <div class="card-price">$769,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 437<br>Second 306</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">30×109</div>
+          <div class="metric-label">3,270 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$503</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished, Full</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmkmcwuotofyk')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmkmcwuotofyk', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmkmcwuotofyk', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>52 Playfair Road</h3>
+          <div class="card-area">Downtown Whitby · Whitby</div>
+          <div class="card-date">Listed 2026-02-16</div>
+        </div>
+        <div class="card-score score-mid">+1</div>
+      </div>
+      <div class="card-price">$839,900</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 339<br>Second 574</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">67×82</div>
+          <div class="metric-label">5,494 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$434</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Unfinished, Full</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbi1h5l064vh')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbi1h5l064vh', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbi1h5l064vh', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>45 Sutcliffe Drive</h3>
+          <div class="card-area">Rolling Acres · Whitby</div>
+          <div class="card-date">Listed 2026-01-02</div>
+        </div>
+        <div class="card-score score-low">+0</div>
+      </div>
+      <div class="card-price">$850,000</div>
+      <div class="card-price-sold">Sold $825,000 (-2.94%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 339<br>Second 420</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">25×91</div>
+          <div class="metric-label">2,275 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$471</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmcw1mj9u9hu6')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmcw1mj9u9hu6', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmcw1mj9u9hu6', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>57 Oceanpearl Crescent</h3>
+          <div class="card-area">Blue Grass Meadows · Whitby</div>
+          <div class="card-date">Listed 2026-01-07</div>
+        </div>
+        <div class="card-score score-low">+0</div>
+      </div>
+      <div class="card-price">$884,000</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 340<br>Second 334</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×99</div>
+          <div class="metric-label">2,871 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$501</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">4 bed</span>
+        <span class="tag">4 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmcwi3was9hkn')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmcwi3was9hkn', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmcwi3was9hkn', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>1302 Ferncliff Circle</h3>
+          <div class="card-area">Liverpool · Pickering</div>
+          <div class="card-date">Listed 2026-02-17</div>
+        </div>
+        <div class="card-score score-low">+0</div>
+      </div>
+      <div class="card-price">$799,800</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 405<br>Second 377</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×114</div>
+          <div class="metric-label">3,306 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$456</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbfty4tg78ws')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbfty4tg78ws', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbfty4tg78ws', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>1432 Arborwood Drive</h3>
+          <div class="card-area">Taunton · Oshawa</div>
+          <div class="card-date">Listed 2026-01-19</div>
+        </div>
+        <div class="card-score score-low">-1</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      <div class="card-price-sold">Sold $845,000 (+5.76%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 505<br>Second 494</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">33×85</div>
+          <div class="metric-label">2,805 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$515</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbg762yqc210')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbg762yqc210', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbg762yqc210', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>1343 Cronk Court</h3>
+          <div class="card-area">Eastdale · Oshawa</div>
+          <div class="card-date">Listed 2026-01-08</div>
+        </div>
+        <div class="card-score score-low">-1</div>
+      </div>
+      <div class="card-price">$829,900</div>
+      <div class="card-price-sold">Sold $795,000 (-4.21%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 487<br>Second 440</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">36×98</div>
+          <div class="metric-label">3,528 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$468</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Full, Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbh15xg0ci64')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbh15xg0ci64', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbh15xg0ci64', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>2323 Steeplechase Street</h3>
+          <div class="card-area">Windfields · Oshawa</div>
+          <div class="card-date">Listed 2025-12-17</div>
+        </div>
+        <div class="card-score score-low">-1</div>
+      </div>
+      <div class="card-price">$850,000</div>
+      <div class="card-price-sold">Sold $800,000 (-5.88%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 477<br>Second 449</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">36×95</div>
+          <div class="metric-label">3,420 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$527</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">2 gar</span>
+        <span class="tag">Finished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbhzafgmz4n7')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbhzafgmz4n7', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbhzafgmz4n7', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>856 Sorrento Avenue</h3>
+          <div class="card-area">McLaughlin · Oshawa</div>
+          <div class="card-date">Listed 2026-01-05</div>
+        </div>
+        <div class="card-score score-low">-1</div>
+      </div>
+      <div class="card-price">$799,900</div>
+      <div class="card-price-sold">Sold $800,000 (+0.01%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 611<br>Upper 386</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">55×100</div>
+          <div class="metric-label">5,500 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$484</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">2 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Detached</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmbhrnj67omp3')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmbhrnj67omp3', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmbhrnj67omp3', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>17 Windflower Way</h3>
+          <div class="card-area">Rural Whitby · Whitby</div>
+          <div class="card-date">Listed 2026-02-26</div>
+        </div>
+        <div class="card-score score-low">-2</div>
+      </div>
+      <div class="card-price">$799,999</div>
+      
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 321<br>Second 423</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">31×87</div>
+          <div class="metric-label">2,697 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$513</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Unfinished</span>
+        <span class="tag">Freehold Townhouse</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc3ptii2yo7h')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc3ptii2yo7h', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc3ptii2yo7h', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>1109 Schooling Drive</h3>
+          <div class="card-area">Taunton · Oshawa</div>
+          <div class="card-date">Listed 2026-02-10</div>
+        </div>
+        <div class="card-score score-low">-2</div>
+      </div>
+      <div class="card-price">$799,000</div>
+      <div class="card-price-sold">Sold $785,000 (-1.75%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 474<br>Second 443</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">29×91</div>
+          <div class="metric-label">2,639 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$475</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Full, Unfinished</span>
+        <span class="tag">Link</span>
+      </div>
+    </div>
+  
+    <div class="house-card " onclick="openDetail('mmc1blt6tj56d')">
+      <div class="card-actions">
+        <button onclick="toggleVisited('mmc1blt6tj56d', event)" title="Mark visited">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+        </button>
+        <button onclick="deleteHouse('mmc1blt6tj56d', event)" title="Delete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+        </button>
+      </div>
+      <div class="card-top">
+        <div class="card-address">
+          <h3>63 Westray Crescent</h3>
+          <div class="card-area">Northeast Ajax · Ajax</div>
+          <div class="card-date">Listed 2025-11-21</div>
+        </div>
+        <div class="card-score score-low">-3</div>
+      </div>
+      <div class="card-price">$829,000</div>
+      <div class="card-price-sold">Sold $800,000 (-3.50%)</div>
+      <div class="card-metrics">
+        <div class="card-metric">
+          <div class="metric-value" style="font-size:0.75rem;line-height:1.4">Main 463<br>Second 426</div>
+          <div class="metric-label">floor ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">—</div>
+          <div class="metric-label">25 ft²</div>
+        </div>
+        <div class="card-metric">
+          <div class="metric-value">$464</div>
+          <div class="metric-label">tax/mo</div>
+        </div>
+      </div>
+      <div class="card-tags">
+        <span class="tag">3 bed</span>
+        <span class="tag">3 bath</span>
+        <span class="tag">1 gar</span>
+        <span class="tag">Full, Unfinished</span>
+        <span class="tag">Semi-Detached</span>
       </div>
     </div>
   </div></main>
@@ -1160,7 +4352,8 @@ const SEED_HOUSES = [
     "url": "https://housesigma.com/on/clarington-real-estate/120-elmer-adams-drive/home/Xawjy419lBb7rR18",
     "street": "120 Elmer Adams Drive",
     "price": 839000,
-    "soldConditional": true,
+    "soldConditional": false,
+    "soldPrice": 834000,
     "listedDate": "2026-02-25",
     "tax": 5392,
     "propertyType": "Link",
@@ -1187,7 +4380,8 @@ const SEED_HOUSES = [
         "d": 10.5,
         "level": "Main",
         "sqft": 120.8,
-        "features": "Stainless Steel Appl,Eat-in Kitchen,Combined w/Dining"
+        "features": "Stainless Steel Appl,Eat-in Kitchen,Combined w/Dining",
+        "corrected": false
       },
       {
         "name": "Dining Room",
@@ -1195,7 +4389,9 @@ const SEED_HOUSES = [
         "d": 10.5,
         "level": "Main",
         "sqft": 134.4,
-        "features": "Combined w/Kitchen,W/O To Yard,Stone Counters"
+        "features": "Combined w/Kitchen,W/O To Yard,Stone Counters",
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Living Room",
@@ -1203,7 +4399,8 @@ const SEED_HOUSES = [
         "d": 11.7,
         "level": "Main",
         "sqft": 175.5,
-        "features": "Gas Fireplace,Hardwood Floor,Overlooks Backyard"
+        "features": "Gas Fireplace,Hardwood Floor,Overlooks Backyard",
+        "corrected": false
       },
       {
         "name": "Bedroom",
@@ -1211,7 +4408,8 @@ const SEED_HOUSES = [
         "d": 11.7,
         "level": "Upper",
         "sqft": 191.9,
-        "features": "Walk-In Closet(s),4 Pc Ensuite,Broadloom"
+        "features": "Walk-In Closet(s),4 Pc Ensuite,Broadloom",
+        "corrected": false
       },
       {
         "name": "Bedroom 2",
@@ -1219,7 +4417,8 @@ const SEED_HOUSES = [
         "d": 10,
         "level": "Upper",
         "sqft": 141,
-        "features": "Broadloom,Walk-In Closet(s),Overlooks Frontyard"
+        "features": "Broadloom,Walk-In Closet(s),Overlooks Frontyard",
+        "corrected": false
       },
       {
         "name": "Bedroom 3",
@@ -1227,11 +4426,13 @@ const SEED_HOUSES = [
         "d": 10.5,
         "level": "Upper",
         "sqft": 139.7,
-        "features": "Broadloom,Walk-In Closet(s),Overlooks Frontyard"
+        "features": "Broadloom,Walk-In Closet(s),Overlooks Frontyard",
+        "corrected": false
       }
     ],
+    "roomsMissing": false,
     "floorSqft": {
-      "main": 431,
+      "main": 296,
       "second": 473
     },
     "visited": false
@@ -1241,7 +4442,8 @@ const SEED_HOUSES = [
     "url": "https://housesigma.com/on/whitby-real-estate/95-harrongate-pl/home/0MWBVyZE4mbYKemj",
     "street": "95 Harrongate Place",
     "price": 799000,
-    "soldConditional": true,
+    "soldConditional": false,
+    "soldPrice": 865000,
     "listedDate": "2026-02-19",
     "tax": 6514,
     "propertyType": "Link",
@@ -1268,7 +4470,8 @@ const SEED_HOUSES = [
         "d": 19.5,
         "level": "Main",
         "sqft": 173.6,
-        "features": "Ceramic Floor,Quartz Counter,Overlooks Pool"
+        "features": "Ceramic Floor,Quartz Counter,Overlooks Pool",
+        "corrected": false
       },
       {
         "name": "Family Room",
@@ -1276,7 +4479,8 @@ const SEED_HOUSES = [
         "d": 14.2,
         "level": "Main",
         "sqft": 187.4,
-        "features": "Hardwood Floor,Electric Fireplace,Large Window"
+        "features": "Hardwood Floor,Electric Fireplace,Large Window",
+        "corrected": false
       },
       {
         "name": "Living Room",
@@ -1284,7 +4488,8 @@ const SEED_HOUSES = [
         "d": 14.9,
         "level": "Main",
         "sqft": 189.2,
-        "features": "Hardwood Floor,Open Stairs,Bay Window"
+        "features": "Hardwood Floor,Open Stairs,Bay Window",
+        "corrected": false
       },
       {
         "name": "Primary Bedroom",
@@ -1292,7 +4497,8 @@ const SEED_HOUSES = [
         "d": 16.6,
         "level": "Upper",
         "sqft": 287.2,
-        "features": "Hardwood Floor,4 Pc Ensuite,Walk-In Closet(s)"
+        "features": "Hardwood Floor,4 Pc Ensuite,Walk-In Closet(s)",
+        "corrected": false
       },
       {
         "name": "Bedroom 2",
@@ -1300,7 +4506,8 @@ const SEED_HOUSES = [
         "d": 10.9,
         "level": "Upper",
         "sqft": 135.2,
-        "features": "Hardwood Floor,Large Closet,Large Window"
+        "features": "Hardwood Floor,Large Closet,Large Window",
+        "corrected": false
       },
       {
         "name": "Bedroom 3",
@@ -1308,7 +4515,8 @@ const SEED_HOUSES = [
         "d": 14.4,
         "level": "Upper",
         "sqft": 138.2,
-        "features": "Hardwood Floor,Large Closet,Large Window"
+        "features": "Hardwood Floor,Large Closet,Large Window",
+        "corrected": false
       },
       {
         "name": "Recreation",
@@ -1316,7 +4524,8 @@ const SEED_HOUSES = [
         "d": 13.6,
         "level": "Basement",
         "sqft": 291,
-        "features": "Vinyl Floor,2 Pc Bath,Large Window"
+        "features": "Vinyl Floor,2 Pc Bath,Large Window",
+        "corrected": false
       },
       {
         "name": "Office",
@@ -1324,9 +4533,11 @@ const SEED_HOUSES = [
         "d": 15,
         "level": "Basement",
         "sqft": 172.5,
-        "features": "Vinyl Floor"
+        "features": "Vinyl Floor",
+        "corrected": false
       }
     ],
+    "roomsMissing": false,
     "floorSqft": {
       "main": 550,
       "second": 561,
@@ -1340,6 +4551,7 @@ const SEED_HOUSES = [
     "street": "253 Michael Boulevard",
     "price": 899900,
     "soldConditional": false,
+    "soldPrice": 875000,
     "listedDate": "2026-02-19",
     "tax": 6461,
     "propertyType": "Detached",
@@ -1351,7 +4563,7 @@ const SEED_HOUSES = [
     "lotD": 121,
     "lotArea": 7139,
     "garage": 2,
-    "parkingDesc": "Attached 2 garage",
+    "parkingDesc": "Attached 2 garages",
     "basement": "Finished, Apartment",
     "frontingOn": "West",
     "community": "Lynde Creek",
@@ -1366,7 +4578,8 @@ const SEED_HOUSES = [
         "d": 11.8,
         "level": "Main",
         "sqft": 240.7,
-        "features": "Bay Window,Open Concept,Hardwood Floor"
+        "features": "Bay Window,Open Concept,Hardwood Floor",
+        "corrected": false
       },
       {
         "name": "Dining Room",
@@ -1374,7 +4587,8 @@ const SEED_HOUSES = [
         "d": 9.4,
         "level": "Main",
         "sqft": 75.2,
-        "features": "Window,Open Concept,Hardwood Floor"
+        "features": "Window,Open Concept,Hardwood Floor",
+        "corrected": false
       },
       {
         "name": "Kitchen",
@@ -1382,7 +4596,8 @@ const SEED_HOUSES = [
         "d": 16,
         "level": "Main",
         "sqft": 416,
-        "features": "Stainless Steel Appl,Eat-in Kitchen,Open Concept"
+        "features": "Stainless Steel Appl,Eat-in Kitchen,Open Concept",
+        "corrected": false
       },
       {
         "name": "Family Room",
@@ -1390,7 +4605,8 @@ const SEED_HOUSES = [
         "d": 15.7,
         "level": "Main",
         "sqft": 222.9,
-        "features": "Fireplace,Walk-Out,Open Concept"
+        "features": "Fireplace,Walk-Out,Open Concept",
+        "corrected": false
       },
       {
         "name": "Laundry",
@@ -1398,7 +4614,8 @@ const SEED_HOUSES = [
         "d": 7,
         "level": "Main",
         "sqft": 60.9,
-        "features": "Laundry Sink,Vinyl Floor,Separate Room"
+        "features": "Laundry Sink,Vinyl Floor,Separate Room",
+        "corrected": false
       },
       {
         "name": "Primary Bedroom",
@@ -1406,7 +4623,8 @@ const SEED_HOUSES = [
         "d": 14.8,
         "level": "Second",
         "sqft": 179.1,
-        "features": "Walk-In Closet(s),2 Pc Ensuite,Overlooks Backyard"
+        "features": "Walk-In Closet(s),2 Pc Ensuite,Overlooks Backyard",
+        "corrected": false
       },
       {
         "name": "Bedroom 2",
@@ -1414,7 +4632,8 @@ const SEED_HOUSES = [
         "d": 10,
         "level": "Second",
         "sqft": 97,
-        "features": "Closet,Window"
+        "features": "Closet,Window",
+        "corrected": false
       },
       {
         "name": "Bedroom 3",
@@ -1422,7 +4641,8 @@ const SEED_HOUSES = [
         "d": 10.8,
         "level": "Second",
         "sqft": 169.6,
-        "features": "Closet Organizers,Window,Overlooks Frontyard"
+        "features": "Closet Organizers,Window,Overlooks Frontyard",
+        "corrected": false
       },
       {
         "name": "Bedroom 4",
@@ -1430,7 +4650,8 @@ const SEED_HOUSES = [
         "d": 9.4,
         "level": "Second",
         "sqft": 78,
-        "features": "Closet,Window,Overlooks Frontyard"
+        "features": "Closet,Window,Overlooks Frontyard",
+        "corrected": false
       },
       {
         "name": "Kitchen",
@@ -1438,7 +4659,8 @@ const SEED_HOUSES = [
         "d": 15.8,
         "level": "Lower",
         "sqft": 372.9,
-        "features": "Stainless Steel Appl,Combined w/Living,Above Grade Window"
+        "features": "Stainless Steel Appl,Combined w/Living,Above Grade Window",
+        "corrected": false
       },
       {
         "name": "Living Room",
@@ -1447,6 +4669,7 @@ const SEED_HOUSES = [
         "level": "Lower",
         "sqft": 372.9,
         "features": "Above Grade Window,Vinyl Floor,Combined w/Kitchen",
+        "corrected": false,
         "sharedArea": true
       },
       {
@@ -1455,7 +4678,8 @@ const SEED_HOUSES = [
         "d": 15.2,
         "level": "Lower",
         "sqft": 176.3,
-        "features": "Walk-In Closet(s),Pot Lights,Above Grade Window"
+        "features": "Walk-In Closet(s),Pot Lights,Above Grade Window",
+        "corrected": false
       },
       {
         "name": "Bedroom 2",
@@ -1463,9 +4687,11 @@ const SEED_HOUSES = [
         "d": 9.7,
         "level": "Lower",
         "sqft": 124.2,
-        "features": "Closet,Pot Lights,Above Grade Window"
+        "features": "Closet,Pot Lights,Above Grade Window",
+        "corrected": false
       }
     ],
+    "roomsMissing": false,
     "floorSqft": {
       "main": 955,
       "second": 524,
@@ -1996,7 +5222,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 202.4,
         "features": "Pot Lights,Combined w/Living,Hardwood Floor",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Family Room",
@@ -2073,7 +5300,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 875,
+      "main": 673,
       "second": 739
     },
     "visited": false
@@ -2228,7 +5455,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 120.1,
         "features": "Hardwood Floor,Combined w/Living",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Living Room",
@@ -2287,7 +5515,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 340,
+      "main": 220,
       "second": 466,
       "basement": 412
     },
@@ -2335,7 +5563,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 184.1,
         "features": "Tile Floor,Combined w/Kitchen,Eat-in Kitchen",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Living Room",
@@ -2404,7 +5633,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 665,
+      "main": 481,
       "second": 502,
       "basement": 251
     },
@@ -2471,7 +5700,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 79,
         "features": "Walk-Out,Combined w/Kitchen,Hardwood Floor",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Family Room",
@@ -2512,7 +5742,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 428,
+      "main": 349,
       "second": 940
     },
     "visited": false
@@ -2958,7 +6188,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 87.4,
         "features": "Combined w/Living,Laminate",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Kitchen",
@@ -2976,7 +6207,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 88.8,
         "features": "Breakfast Area,Combined w/Kitchen,W/O To Deck",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Bedroom",
@@ -3017,7 +6249,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 434,
+      "main": 258,
       "second": 351,
       "basement": 414
     },
@@ -3100,7 +6332,7 @@ const SEED_HOUSES = [
       "main": 224,
       "second": 370
     },
-    "visited": false
+    "visited": true
   },
   {
     "id": "mmbfob0imjz5p",
@@ -3145,7 +6377,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 109.1,
         "features": "Broadloom,Combined w/Living,Window",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Kitchen",
@@ -3199,7 +6432,8 @@ const SEED_HOUSES = [
         "level": "Lower",
         "sqft": 172.8,
         "features": "Broadloom,Combined w/Office",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Office",
@@ -3231,9 +6465,9 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 743,
+      "main": 634,
       "upper": 473,
-      "lower": 436,
+      "lower": 264,
       "basement": 418
     },
     "visited": false
@@ -3274,7 +6508,7 @@ const SEED_HOUSES = [
     "url": "https://housesigma.com/on/whitby-real-estate/902-centre-street/home/5VXv3lXbEkg3j2q8",
     "street": "902 Centre Street",
     "price": 729000,
-    "soldConditional": false,
+    "soldConditional": true,
     "listedDate": "2026-02-12",
     "tax": 4700,
     "propertyType": "Detached",
@@ -3418,7 +6652,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 164.4,
         "features": "Hardwood Floor,Combined w/Kitchen",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Great Room",
@@ -3468,7 +6703,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 669,
+      "main": 505,
       "second": 494
     },
     "visited": false
@@ -3478,7 +6713,8 @@ const SEED_HOUSES = [
     "url": "https://housesigma.com/on/whitby-real-estate/15-langmaid-crt/home/gJRv53K6LXX7VPW4",
     "street": "15 Langmaid Court",
     "price": 1024900,
-    "soldConditional": true,
+    "soldConditional": false,
+    "soldPrice": 995000,
     "listedDate": "2026-01-12",
     "tax": 6434,
     "propertyType": "Detached",
@@ -3515,7 +6751,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 140,
         "features": "Pot Lights,Combined w/Kitchen,Tile Floor",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Kitchen",
@@ -3628,7 +6865,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 618,
+      "main": 478,
       "second": 912,
       "basement": 258
     },
@@ -3893,7 +7130,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 127.4,
         "features": "Hardwood Floor,Combined w/Living",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Family Room",
@@ -3952,7 +7190,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 792,
+      "main": 665,
       "second": 646
     },
     "visited": false
@@ -4304,7 +7542,7 @@ const SEED_HOUSES = [
     "url": "https://housesigma.com/on/whitby-real-estate/45-davies-cres/home/Xawjy41O0bb7rR18",
     "street": "45 Davies Crescent",
     "price": 699900,
-    "soldConditional": false,
+    "soldConditional": true,
     "listedDate": "2026-02-26",
     "tax": 5062,
     "propertyType": "Freehold Townhouse",
@@ -5105,7 +8343,8 @@ const SEED_HOUSES = [
         "level": "Ground",
         "sqft": 186.6,
         "features": "Ceramic Floor,Walk-Out,Combined w/Kitchen",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Living Room",
@@ -5173,7 +8412,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 492,
+      "main": 306,
       "second": 446,
       "basement": 242
     },
@@ -5923,7 +9162,7 @@ const SEED_HOUSES = [
       "second": 607,
       "basement": 464
     },
-    "visited": false
+    "visited": true
   },
   {
     "id": "mmc17osoqgz8a",
@@ -6039,7 +9278,8 @@ const SEED_HOUSES = [
     "url": "https://housesigma.com/on/clarington-real-estate/78-bonnycastle-drive/home/bEDRYagAMkb71VaB",
     "street": "78 Bonnycastle Drive",
     "price": 849900,
-    "soldConditional": true,
+    "soldConditional": false,
+    "soldPrice": 849000,
     "listedDate": "2026-02-19",
     "tax": 4928,
     "propertyType": "Detached",
@@ -6094,7 +9334,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 84.8,
         "features": "Ceramic Floor,Combined w/Kitchen,Walk-Out",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Primary Bedroom",
@@ -6135,7 +9376,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 541,
+      "main": 456,
       "second": 390,
       "basement": 462
     },
@@ -6203,7 +9444,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 77.9,
         "features": "W/O To Yard,Combined w/Kitchen,Ceramic Floor",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Family Room",
@@ -6244,7 +9486,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 383,
+      "main": 305,
       "second": 559
     },
     "visited": false
@@ -7076,7 +10318,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 123.4,
         "features": "Hardwood Floor,Combined w/Kitchen,W/O To Deck",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Living Room",
@@ -7144,7 +10387,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 475,
+      "main": 351,
       "second": 509,
       "basement": 595
     },
@@ -7686,7 +10929,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 164.2,
         "features": "Laminate,W/O To Deck,Combined w/Kitchen",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Bedroom",
@@ -7763,7 +11007,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 462,
+      "main": 298,
       "second": 600,
       "basement": 352
     },
@@ -7996,7 +11240,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 139.3,
         "features": "Fireplace,Open Concept",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Breakfast",
@@ -8005,7 +11250,8 @@ const SEED_HOUSES = [
         "level": "Main",
         "sqft": 82.8,
         "features": "Combined w/Kitchen,Closet,Window,Bedroom 3",
-        "corrected": false
+        "corrected": false,
+        "sharedArea": true
       },
       {
         "name": "Kitchen",
@@ -8064,7 +11310,7 @@ const SEED_HOUSES = [
     ],
     "roomsMissing": false,
     "floorSqft": {
-      "main": 562,
+      "main": 340,
       "second": 334,
       "basement": 486
     },
@@ -8285,33 +11531,960 @@ const SEED_HOUSES = [
     "visited": false
   },
   {
-    "id": "mmcx1brm9rpkl",
-    "url": "https://housesigma.com/on/clarington-real-estate/63-bathgate-cres/home/510QqypNqgV3LGlV",
-    "street": "63 Bathgate Crescent",
+    "id": "mmj7884dd519m",
+    "url": "https://housesigma.com/on/clarington-real-estate/181-madden-pl/home/5xLkv3V0wjnyDBNr",
+    "street": "181 Madden Place",
     "price": 699900,
     "soldConditional": false,
-    "listedDate": "2026-03-03",
-    "tax": 4800,
+    "listedDate": "2026-03-05",
+    "tax": 5132,
     "propertyType": "Link",
     "style": "2-Storey",
-    "buildingAge": "16-30",
+    "buildingAge": "-",
     "sizeLo": 1500,
     "sizeHi": 2000,
-    "lotW": 96,
-    "lotD": 365,
-    "lotArea": 35040,
+    "lotW": 29,
+    "lotD": 108,
+    "lotArea": 3132,
+    "garage": 2,
+    "parkingDesc": "Attached 2 garages",
+    "basement": "Finished",
+    "frontingOn": "North",
+    "community": "Bowmanville",
+    "municipality": "Clarington",
+    "beds": 4,
+    "baths": 3,
+    "hasFamilyRoom": true,
+    "rooms": [
+      {
+        "name": "Kitchen",
+        "w": 11.7,
+        "d": 10.9,
+        "level": "Main",
+        "sqft": 127.5,
+        "features": "Laminate,Ceiling Fan(s),Backsplash",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 10.9,
+        "d": 7.9,
+        "level": "Main",
+        "sqft": 86.1,
+        "features": "Laminate,W/O To Deck",
+        "corrected": false
+      },
+      {
+        "name": "Living Room",
+        "w": 18.7,
+        "d": 10.4,
+        "level": "Main",
+        "sqft": 194.5,
+        "features": "Laminate,Electric Fireplace,Pot Lights",
+        "corrected": false
+      },
+      {
+        "name": "Family Room",
+        "w": 16.5,
+        "d": 13.1,
+        "level": "Second",
+        "sqft": 216.2,
+        "features": "Broadloom,Gas Fireplace,W/O To Balcony",
+        "corrected": false
+      },
+      {
+        "name": "Primary Bedroom",
+        "w": 15.1,
+        "d": 13,
+        "level": "Second",
+        "sqft": 196.3,
+        "features": "Broadloom,His and Hers Closets,5 Pc Ensuite",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 10.1,
+        "d": 9.9,
+        "level": "Second",
+        "sqft": 100,
+        "features": "Broadloom,Closet,Ceiling Fan(s)",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 10,
+        "d": 12.7,
+        "level": "Second",
+        "sqft": 127,
+        "features": "Broadloom,Closet,Ceiling Fan(s)",
+        "corrected": false
+      },
+      {
+        "name": "Recreation",
+        "w": 21.5,
+        "d": 19.2,
+        "level": "Basement",
+        "sqft": 412.8,
+        "features": "Broadloom,Pot Lights,Irregular Room",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom",
+        "w": 12.1,
+        "d": 10.3,
+        "level": "Basement",
+        "sqft": 124.6,
+        "features": "Laminate,Pot Lights,Walk-In Closet(s)",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 408,
+      "second": 640,
+      "basement": 537
+    },
+    "visited": false
+  },
+  {
+    "id": "mmj7ab3j4o3p7",
+    "url": "https://housesigma.com/on/whitby-real-estate/66-jamieson-crescent/home/EXrx30XoqZN3OklN",
+    "street": "66 Jamieson Crescent",
+    "price": 699900,
+    "soldConditional": false,
+    "listedDate": "2026-03-05",
+    "tax": 6834,
+    "propertyType": "Detached",
+    "style": "2-Storey",
+    "buildingAge": "-",
+    "sizeLo": 2000,
+    "sizeHi": 2500,
+    "lotW": 45,
+    "lotD": 125,
+    "lotArea": 5625,
+    "garage": 2,
+    "parkingDesc": "Attached 2 garages",
+    "basement": "Full, Unfinished",
+    "frontingOn": "South",
+    "community": "Rolling Acres",
+    "municipality": "Whitby",
+    "beds": 3,
+    "baths": 3,
+    "hasFamilyRoom": true,
+    "rooms": [
+      {
+        "name": "Kitchen",
+        "w": 10,
+        "d": 8.4,
+        "level": "Main",
+        "sqft": 84,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Breakfast",
+        "w": 13.7,
+        "d": 8.2,
+        "level": "Main",
+        "sqft": 112.3,
+        "features": "W/O To Deck",
+        "corrected": false
+      },
+      {
+        "name": "Family Room",
+        "w": 18,
+        "d": 10.7,
+        "level": "Main",
+        "sqft": 192.6,
+        "features": "Fireplace",
+        "corrected": false
+      },
+      {
+        "name": "Living Room",
+        "w": 17,
+        "d": 10.8,
+        "level": "Main",
+        "sqft": 183.6,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 13,
+        "d": 10.7,
+        "level": "Main",
+        "sqft": 139.1,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Primary Bedroom",
+        "w": 22.9,
+        "d": 15.4,
+        "level": "Upper",
+        "sqft": 352.7,
+        "features": "Ensuite Bath,Walk-In Closet(s)",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 14.1,
+        "d": 12.2,
+        "level": "Upper",
+        "sqft": 172,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 11.3,
+        "d": 11,
+        "level": "Upper",
+        "sqft": 124.3,
+        "features": "",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 712,
+      "second": 649
+    },
+    "visited": false
+  },
+  {
+    "id": "mmj7be2pmxxr0",
+    "url": "https://housesigma.com/on/whitby-real-estate/46-sandford-cres/home/BXeEn7XOg4vyrPo8",
+    "street": "46 Sandford Crescent",
+    "price": 799900,
+    "soldConditional": false,
+    "listedDate": "2026-03-05",
+    "tax": 6554,
+    "propertyType": "Detached",
+    "style": "2-Storey",
+    "buildingAge": "-",
+    "sizeLo": 1500,
+    "sizeHi": 2000,
+    "lotW": 34,
+    "lotD": 114,
+    "lotArea": 3876,
+    "garage": 1,
+    "parkingDesc": "Detached 1 garage",
+    "basement": "Partially Finished",
+    "frontingOn": "South",
+    "community": "Rolling Acres",
+    "municipality": "Whitby",
+    "beds": 4,
+    "baths": 4,
+    "hasFamilyRoom": true,
+    "rooms": [
+      {
+        "name": "Family Room",
+        "w": 17.2,
+        "d": 15.8,
+        "level": "Main",
+        "sqft": 271.8,
+        "features": "Laminate,French Doors,Overlooks Frontyard,Dining Room",
+        "corrected": false
+      },
+      {
+        "name": "Kitchen",
+        "w": 22.2,
+        "d": 8.6,
+        "level": "Main",
+        "sqft": 190.9,
+        "features": "Laminate,Granite Counters,Stainless Steel Appl",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 22.2,
+        "d": 8.6,
+        "level": "Main",
+        "sqft": 190.9,
+        "features": "Laminate,W/O To Yard,Combined w/Kitchen",
+        "corrected": false,
+        "sharedArea": true
+      },
+      {
+        "name": "Living Room",
+        "w": 15.9,
+        "d": 12.6,
+        "level": "Main",
+        "sqft": 200.3,
+        "features": "Laminate,Gas Fireplace,Overlooks Backyard,Family Room",
+        "corrected": false
+      },
+      {
+        "name": "Primary Bedroom",
+        "w": 16,
+        "d": 10.8,
+        "level": "Second",
+        "sqft": 172.8,
+        "features": "4 Pc Ensuite,Walk-In Closet(s),Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 12,
+        "d": 10.2,
+        "level": "Second",
+        "sqft": 122.4,
+        "features": "Closet,Window,Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 9.7,
+        "d": 11.5,
+        "level": "Second",
+        "sqft": 111.6,
+        "features": "Walk-In Closet(s),Window,Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 4",
+        "w": 9.7,
+        "d": 9.7,
+        "level": "Second",
+        "sqft": 94.1,
+        "features": "Closet,Window,Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Recreation",
+        "w": 19.5,
+        "d": 15,
+        "level": "Basement",
+        "sqft": 292.5,
+        "features": "Laminate,3 Pc Bath,Combined w/Kitchen",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 663,
+      "second": 501,
+      "basement": 293
+    },
+    "visited": false
+  },
+  {
+    "id": "mmj7c91w032q7",
+    "url": "https://housesigma.com/on/clarington-real-estate/32-buxton-lane/home/510Qqyp690V3LGlV",
+    "street": "32 Buxton Lane",
+    "price": 899000,
+    "soldConditional": false,
+    "listedDate": "2026-03-05",
+    "tax": 6088,
+    "propertyType": "Detached",
+    "style": "2-Storey",
+    "buildingAge": "-",
+    "sizeLo": 1500,
+    "sizeHi": 2000,
+    "lotW": 36,
+    "lotD": 110,
+    "lotArea": 3960,
+    "garage": 2,
+    "parkingDesc": "Attached 2 garages",
+    "basement": "Finished",
+    "frontingOn": "West",
+    "community": "Bowmanville",
+    "municipality": "Clarington",
+    "beds": 4,
+    "baths": 4,
+    "hasFamilyRoom": false,
+    "rooms": [
+      {
+        "name": "Kitchen",
+        "w": 12.1,
+        "d": 8.2,
+        "level": "Main",
+        "sqft": 99.2,
+        "features": "Granite Counters,Ceramic Backsplash,Pot Lights",
+        "corrected": false
+      },
+      {
+        "name": "Breakfast",
+        "w": 12.1,
+        "d": 7.4,
+        "level": "Main",
+        "sqft": 89.5,
+        "features": "W/O To Pool,Vinyl Floor,Pot Lights",
+        "corrected": false
+      },
+      {
+        "name": "Great Room",
+        "w": 16.4,
+        "d": 11.5,
+        "level": "Main",
+        "sqft": 188.6,
+        "features": "Fireplace,Vinyl Floor,Pot Lights",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 14.8,
+        "d": 11.4,
+        "level": "Main",
+        "sqft": 168.7,
+        "features": "Coffered Ceiling(s),Vinyl Floor,Pot Lights",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 4",
+        "w": 13.4,
+        "d": 11.5,
+        "level": "Upper",
+        "sqft": 154.1,
+        "features": "Broadloom,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 12.8,
+        "d": 11.2,
+        "level": "Upper",
+        "sqft": 143.4,
+        "features": "Broadloom,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 12.8,
+        "d": 10,
+        "level": "Upper",
+        "sqft": 128,
+        "features": "Broadloom,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Primary Bedroom",
+        "w": 17.1,
+        "d": 12.4,
+        "level": "Upper",
+        "sqft": 212,
+        "features": "Broadloom,4 Pc Ensuite,Walk-In Closet(s)",
+        "corrected": false
+      },
+      {
+        "name": "Office",
+        "w": 9.1,
+        "d": 8.9,
+        "level": "Basement",
+        "sqft": 81,
+        "features": "Window,Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Recreation",
+        "w": 23.3,
+        "d": 20.7,
+        "level": "Basement",
+        "sqft": 482.3,
+        "features": "Broadloom,Wet Bar",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 546,
+      "second": 638,
+      "basement": 563
+    },
+    "visited": false
+  },
+  {
+    "id": "mmj7d83kfuyik",
+    "url": "https://housesigma.com/on/whitby-real-estate/56-longueuil-pl/home/5xLkv3V61EZ3DBNr",
+    "street": "56 Longueuil Place",
+    "price": 829000,
+    "soldConditional": false,
+    "listedDate": "2026-03-05",
+    "tax": 5395,
+    "propertyType": "Link",
+    "style": "2-Storey",
+    "buildingAge": "-",
+    "sizeLo": 1500,
+    "sizeHi": 2000,
+    "lotW": 25,
+    "lotD": 125,
+    "lotArea": 3125,
+    "garage": 1,
+    "parkingDesc": "Built-In 1 garage",
+    "basement": "Finished",
+    "frontingOn": "South",
+    "community": "Pringle Creek",
+    "municipality": "Whitby",
+    "beds": 3,
+    "baths": 4,
+    "hasFamilyRoom": false,
+    "rooms": [
+      {
+        "name": "Kitchen",
+        "w": 17.5,
+        "d": 9.3,
+        "level": "Main",
+        "sqft": 162.8,
+        "features": "Ceramic Floor,B/I Dishwasher",
+        "corrected": false
+      },
+      {
+        "name": "Breakfast",
+        "w": 17.5,
+        "d": 9.3,
+        "level": "Main",
+        "sqft": 162.8,
+        "features": "W/O To Deck,Combined w/Kitchen,Ceramic Floor",
+        "corrected": false,
+        "sharedArea": true
+      },
+      {
+        "name": "Living Room",
+        "w": 17.5,
+        "d": 10.6,
+        "level": "Main",
+        "sqft": 185.5,
+        "features": "Hardwood Floor,Combined w/Dining",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 17.5,
+        "d": 10.6,
+        "level": "Main",
+        "sqft": 185.5,
+        "features": "Hardwood Floor,Combined w/Living",
+        "corrected": false,
+        "sharedArea": true
+      },
+      {
+        "name": "Primary Bedroom",
+        "w": 16.1,
+        "d": 13.1,
+        "level": "Second",
+        "sqft": 210.9,
+        "features": "4 Pc Ensuite,Walk-In Closet(s),Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 17.5,
+        "d": 9.9,
+        "level": "Second",
+        "sqft": 173.3,
+        "features": "Laminate,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 17.5,
+        "d": 10.7,
+        "level": "Second",
+        "sqft": 187.3,
+        "features": "Laminate,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Recreation",
+        "w": 24.8,
+        "d": 10.3,
+        "level": "Basement",
+        "sqft": 255.4,
+        "features": "Laminate",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 348,
+      "second": 572,
+      "basement": 255
+    },
+    "visited": false
+  },
+  {
+    "id": "mmj7e2y7ox1kr",
+    "url": "https://housesigma.com/on/oshawa-real-estate/532-park-rd-n/home/owJKR7PdkD7XeLPm",
+    "street": "532 Park Road N",
+    "price": 789000,
+    "soldConditional": false,
+    "listedDate": "2026-03-05",
+    "tax": 5808,
+    "propertyType": "Detached",
+    "style": "2-Storey",
+    "buildingAge": "-",
+    "sizeLo": 1500,
+    "sizeHi": 2000,
+    "lotW": 27,
+    "lotD": 89,
+    "lotArea": 2403,
+    "garage": 1,
+    "parkingDesc": "Built-In 1 garage",
+    "basement": "Finished",
+    "frontingOn": "West",
+    "community": "McLaughlin",
+    "municipality": "Oshawa",
+    "beds": 4,
+    "baths": 3,
+    "hasFamilyRoom": true,
+    "rooms": [
+      {
+        "name": "Living Room",
+        "w": 17,
+        "d": 12.9,
+        "level": "Main",
+        "sqft": 219.3,
+        "features": "Large Window,Vinyl Floor",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 11.3,
+        "d": 9.1,
+        "level": "Main",
+        "sqft": 102.8,
+        "features": "Vinyl Floor,W/O To Deck",
+        "corrected": false
+      },
+      {
+        "name": "Kitchen",
+        "w": 12.6,
+        "d": 11.3,
+        "level": "Main",
+        "sqft": 142.4,
+        "features": "Granite Counters,Vinyl Floor,Centre Island",
+        "corrected": false
+      },
+      {
+        "name": "Primary Bedroom",
+        "w": 10.8,
+        "d": 13.5,
+        "level": "Second",
+        "sqft": 145.8,
+        "features": "Ceiling Fan(s),Vinyl Floor,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 7.4,
+        "d": 10.8,
+        "level": "Second",
+        "sqft": 79.9,
+        "features": "Ceiling Fan(s),Vinyl Floor,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 11,
+        "d": 11,
+        "level": "Second",
+        "sqft": 121,
+        "features": "Ceiling Fan(s),Vinyl Floor,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 4",
+        "w": 10.8,
+        "d": 8.7,
+        "level": "Main",
+        "sqft": 94,
+        "features": "Vinyl Floor,Closet",
+        "corrected": false
+      },
+      {
+        "name": "Office",
+        "w": 10.9,
+        "d": 12.5,
+        "level": "Main",
+        "sqft": 136.3,
+        "features": "Vinyl Floor",
+        "corrected": false
+      },
+      {
+        "name": "Kitchen",
+        "w": 13.3,
+        "d": 10.9,
+        "level": "Lower",
+        "sqft": 145,
+        "features": "Pantry,Vinyl Floor",
+        "corrected": false
+      },
+      {
+        "name": "Family Room",
+        "w": 12.6,
+        "d": 17.9,
+        "level": "Lower",
+        "sqft": 225.5,
+        "features": "Large Window,Vinyl Floor",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 695,
+      "second": 347,
+      "basement": 371
+    },
+    "visited": false
+  },
+  {
+    "id": "mmkmcwuotofyk",
+    "url": "https://housesigma.com/on/whitby-real-estate/52-playfair-rd/home/gaQmD7zVjNL7J9Bo",
+    "street": "52 Playfair Road",
+    "price": 839900,
+    "soldConditional": false,
+    "listedDate": "2026-02-16",
+    "tax": 5209,
+    "propertyType": "Freehold Townhouse",
+    "style": "2-Storey",
+    "buildingAge": "-",
+    "sizeLo": 1500,
+    "sizeHi": 2000,
+    "lotW": 67,
+    "lotD": 82,
+    "lotArea": 5494,
     "garage": 1,
     "parkingDesc": "Attached 1 garage",
-    "basement": "Unfinished",
+    "basement": "Unfinished, Full",
     "frontingOn": "South",
-    "community": "Courtice",
-    "municipality": "Clarington",
+    "community": "Downtown Whitby",
+    "municipality": "Whitby",
     "beds": 3,
     "baths": 3,
     "hasFamilyRoom": false,
-    "rooms": [],
-    "roomsMissing": true,
-    "floorSqft": null,
+    "rooms": [
+      {
+        "name": "Living Room",
+        "w": 17.9,
+        "d": 12,
+        "level": "Main",
+        "sqft": 214.8,
+        "features": "Laminate,Separate Room,Large Window",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 13.3,
+        "d": 11.3,
+        "level": "Main",
+        "sqft": 150.3,
+        "features": "Combined w/Kitchen,Large Window,Laminate",
+        "corrected": false,
+        "sharedArea": true
+      },
+      {
+        "name": "Kitchen",
+        "w": 9.6,
+        "d": 12.9,
+        "level": "Main",
+        "sqft": 123.8,
+        "features": "Eat-in Kitchen,W/O To Yard,Stainless Steel Appl",
+        "corrected": false
+      },
+      {
+        "name": "Primary Bedroom",
+        "w": 21.8,
+        "d": 11.1,
+        "level": "Second",
+        "sqft": 242,
+        "features": "4 Pc Ensuite,Walk-In Closet(s),Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 18.2,
+        "d": 12.6,
+        "level": "Second",
+        "sqft": 229.3,
+        "features": "Laminate,Walk-In Closet(s),Window",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 9.3,
+        "d": 11,
+        "level": "Second",
+        "sqft": 102.3,
+        "features": "Laminate,Closet,Window",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 339,
+      "second": 574
+    },
+    "visited": false
+  },
+  {
+    "id": "mmlaqhxd0zj8b",
+    "url": "https://housesigma.com/on/clarington-real-estate/222-bruce-cameron-dr/home/0ZxwR7M0MJ2yKabB",
+    "street": "222 Bruce Cameron Drive",
+    "price": 889900,
+    "soldConditional": false,
+    "listedDate": "2026-03-10",
+    "tax": 6047,
+    "propertyType": "Detached",
+    "style": "2-Storey",
+    "buildingAge": "6-15",
+    "sizeLo": 2000,
+    "sizeHi": 2500,
+    "lotW": 32,
+    "lotD": 117,
+    "lotArea": 3744,
+    "garage": 1,
+    "parkingDesc": "Attached 1 garage",
+    "basement": "Finished",
+    "frontingOn": "South",
+    "community": "Bowmanville",
+    "municipality": "Clarington",
+    "beds": 5,
+    "baths": 4,
+    "hasFamilyRoom": false,
+    "rooms": [
+      {
+        "name": "Kitchen",
+        "w": 17.8,
+        "d": 12,
+        "level": "Main",
+        "sqft": 213.6,
+        "features": "B/I Dishwasher,Centre Island,Eat-in Kitchen",
+        "corrected": false
+      },
+      {
+        "name": "Living Room",
+        "w": 15.9,
+        "d": 12.3,
+        "level": "Main",
+        "sqft": 195.6,
+        "features": "Laminate",
+        "corrected": false
+      },
+      {
+        "name": "Dining Room",
+        "w": 11.8,
+        "d": 12.6,
+        "level": "Main",
+        "sqft": 148.7,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Bathroom",
+        "w": 5.1,
+        "d": 5.2,
+        "level": "Main",
+        "sqft": 26.5,
+        "features": "2 Pc Bath",
+        "corrected": false
+      },
+      {
+        "name": "Laundry",
+        "w": 9.3,
+        "d": 6.4,
+        "level": "Main",
+        "sqft": 59.5,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom",
+        "w": 11.3,
+        "d": 9.7,
+        "level": "Second",
+        "sqft": 109.6,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 2",
+        "w": 11.3,
+        "d": 9.9,
+        "level": "Second",
+        "sqft": 111.9,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 3",
+        "w": 11.8,
+        "d": 11.3,
+        "level": "Second",
+        "sqft": 133.3,
+        "features": "",
+        "corrected": false
+      },
+      {
+        "name": "Bathroom",
+        "w": 5.4,
+        "d": 9.7,
+        "level": "Second",
+        "sqft": 52.4,
+        "features": "4 Pc Bath",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom 4",
+        "w": 11.3,
+        "d": 9.7,
+        "level": "Second",
+        "sqft": 109.6,
+        "features": "Walk-In Closet(s)",
+        "corrected": false
+      },
+      {
+        "name": "Bathroom",
+        "w": 10.8,
+        "d": 11.9,
+        "level": "Second",
+        "sqft": 128.5,
+        "features": "4 Pc Ensuite,Soaking Tub",
+        "corrected": false
+      },
+      {
+        "name": "Bedroom",
+        "w": 13.6,
+        "d": 12.1,
+        "level": "Basement",
+        "sqft": 164.6,
+        "features": "Vinyl Floor",
+        "corrected": false
+      },
+      {
+        "name": "Den",
+        "w": 17.9,
+        "d": 12.1,
+        "level": "Basement",
+        "sqft": 216.6,
+        "features": "Wet Bar",
+        "corrected": false
+      },
+      {
+        "name": "Bathroom",
+        "w": 8.9,
+        "d": 4.9,
+        "level": "Basement",
+        "sqft": 43.6,
+        "features": "3 Pc Bath",
+        "corrected": false
+      },
+      {
+        "name": "Den",
+        "w": 13.5,
+        "d": 10.2,
+        "level": "Second",
+        "sqft": 137.7,
+        "features": "",
+        "corrected": false
+      }
+    ],
+    "roomsMissing": false,
+    "floorSqft": {
+      "main": 558,
+      "second": 602,
+      "basement": 381
+    },
     "visited": false
   }
 ];
